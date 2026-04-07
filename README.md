@@ -88,6 +88,7 @@ The MSE drops from 0.59 to 0.028 over 20 epochs. The SIGReg dropped from 4722 to
 
 ## Results
 
+The training time was around 2 minutes for the 20 epochs.
 After training, I extracted the encoder's output at the final context timestep (t=69) for every sequence in the dataset, then reduced from 64 dimensions to 2 using PCA.
 
 ![LeJEPA Latent Space Geometry](https://github.com/AIChidera/LeJEPA-on-VanDerPol/blob/cd19714c467c7b06e5fa46d0b113d3fd5ce627ce/Umap%20of%20LeJEPA%20on%20Van%20der%20Pol%20limit%20cycle.png)
